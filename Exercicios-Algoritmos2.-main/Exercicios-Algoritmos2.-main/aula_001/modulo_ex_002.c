@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int se(int y){
-    return(y % 4 == 0);
+    return(y % 2 == 0);
 }
 
 int main(){
@@ -9,8 +9,8 @@ int main(){
  printf("\t\tDigite um numero:\n");
  scanf("%d", &x);
  if(se(x))
-    printf("E multiplo de 4");
+    printf("O numero e par");
 
  else
-    printf("Nao e multiplo de 4");
+    printf("O numero e impar");
 }
